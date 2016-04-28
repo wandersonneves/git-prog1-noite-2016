@@ -13,7 +13,7 @@ int main()
     
     media = (nota1+nota2)/2;
     
-    if (media<5)
+    if (media<=5)
     {
         printf("\nREPROVADO.\n");
     }
