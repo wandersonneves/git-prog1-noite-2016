@@ -11,19 +11,19 @@ int main()
     scanf("%d", &num);
     
          if (num > maiornum)
-         
+         {
              maiornum = num;
-         
+         }
          if(num < menornum)
-         
+         {
              menornum = num;
-         
+         }
    
     
     printf("\nDeseja continuar?\n1 - Sim\n2 - Não\n");
     scanf("%d", &opcao);
-    }
-    while (opcao==1);
+    
+    }while (opcao==1);
    
         
        
